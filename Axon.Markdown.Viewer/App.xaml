@@ -1,0 +1,28 @@
+<Application x:Class="Axon.Markdown.Viewer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Axon.Markdown.Viewer">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+            <!-- Icono de la aplicación -->
+            <DrawingImage x:Key="AppIcon">
+                <DrawingImage.Drawing>
+                    <DrawingGroup>
+                        <GeometryDrawing Brush="#007acc">
+                            <GeometryDrawing.Geometry>
+                                <RectangleGeometry Rect="0,0,256,256" RadiusX="20" RadiusY="20"/>
+                            </GeometryDrawing.Geometry>
+                        </GeometryDrawing>
+                        <GeometryDrawing Brush="White">
+                            <GeometryDrawing.Geometry>
+                                <PathGeometry Figures="M 64,80 L 64,176 L 192,176 L 192,80 Z M 80,96 L 176,96 L 176,112 L 80,112 Z M 80,128 L 176,128 L 176,144 L 80,144 Z M 80,160 L 140,160 L 140,176 L 80,176 Z"/>
+                            </GeometryDrawing.Geometry>
+                        </GeometryDrawing>
+                    </DrawingGroup>
+                </DrawingImage.Drawing>
+            </DrawingImage>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

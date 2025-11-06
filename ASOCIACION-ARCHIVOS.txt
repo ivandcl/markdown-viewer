@@ -1,0 +1,92 @@
+═══════════════════════════════════════════════════════════════
+  AXON MARKDOWN VIEWER - ASOCIACIÓN DE ARCHIVOS .MD
+═══════════════════════════════════════════════════════════════
+
+IMPORTANTE: Para asociar archivos .md con Axon Markdown Viewer,
+necesitas ejecutar el script de registro como Administrador.
+
+═══════════════════════════════════════════════════════════════
+  INSTALACIÓN DE ASOCIACIÓN
+═══════════════════════════════════════════════════════════════
+
+OPCIÓN 1: Usar el archivo .BAT (Recomendado)
+─────────────────────────────────────────────
+1. Haz doble clic en: Registrar-AsociacionMD.bat
+2. Acepta el UAC (Control de Cuentas de Usuario)
+3. Sigue las instrucciones en pantalla
+4. ¡Listo! Ya puedes hacer doble clic en archivos .md
+
+OPCIÓN 2: Ejecutar PowerShell manualmente
+──────────────────────────────────────────
+1. Click derecho en: Registrar-AsociacionMD.ps1
+2. Selecciona "Ejecutar con PowerShell"
+3. Acepta el UAC cuando aparezca
+4. Sigue las instrucciones en pantalla
+
+═══════════════════════════════════════════════════════════════
+  DESPUÉS DE LA INSTALACIÓN
+═══════════════════════════════════════════════════════════════
+
+✓ Doble clic en cualquier archivo .md lo abrirá con Axon
+✓ Click derecho > "Abrir con" mostrará Axon Markdown Viewer
+✓ Los archivos .md tendrán el icono de Axon en el explorador
+
+NOTA: Si Windows ya tenía una asociación previa, puede que
+necesites hacer lo siguiente la primera vez:
+
+1. Click derecho en un archivo .md
+2. "Abrir con" > "Elegir otra aplicación"
+3. Seleccionar "Axon Markdown Viewer"
+4. Marcar "Usar siempre esta aplicación"
+5. Click en "Aceptar"
+
+═══════════════════════════════════════════════════════════════
+  DESINSTALACIÓN DE ASOCIACIÓN
+═══════════════════════════════════════════════════════════════
+
+Si deseas eliminar la asociación:
+
+1. Haz doble clic en: Desregistrar-AsociacionMD.bat
+2. Acepta el UAC
+3. Confirma la eliminación
+4. ¡Listo! La asociación ha sido eliminada
+
+Esto NO elimina la aplicación, solo la asociación de archivos.
+
+═══════════════════════════════════════════════════════════════
+  ARCHIVOS INCLUIDOS
+═══════════════════════════════════════════════════════════════
+
+Registrar-AsociacionMD.bat     → Instalar asociación (fácil)
+Registrar-AsociacionMD.ps1     → Script PowerShell de registro
+
+Desregistrar-AsociacionMD.bat  → Eliminar asociación (fácil)
+Desregistrar-AsociacionMD.ps1  → Script PowerShell de eliminación
+
+ASOCIACION-ARCHIVOS.txt        → Este archivo (instrucciones)
+
+═══════════════════════════════════════════════════════════════
+  PREGUNTAS FRECUENTES
+═══════════════════════════════════════════════════════════════
+
+P: ¿Por qué necesito permisos de Administrador?
+R: Windows requiere privilegios de Administrador para modificar
+   el registro del sistema y crear asociaciones de archivos.
+
+P: ¿Es seguro?
+R: Sí. Los scripts solo modifican las entradas del registro
+   relacionadas con la asociación de archivos .md. Puedes
+   revisar el código en los archivos .ps1
+
+P: ¿Qué pasa si ya tengo otro programa para abrir .md?
+R: La asociación se sobrescribirá. Puedes revertir usando el
+   script de desinstalación o cambiar manualmente desde
+   "Abrir con" > "Elegir otra aplicación"
+
+P: ¿Funciona con archivos .markdown?
+R: Actualmente solo .md. Si necesitas .markdown, contacta al
+   desarrollador.
+
+═══════════════════════════════════════════════════════════════
+
+© 2025 Axon Group

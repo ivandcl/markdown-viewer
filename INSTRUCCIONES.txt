@@ -1,0 +1,71 @@
+═══════════════════════════════════════════════════════════════
+    AXON MARKDOWN VIEWER - INSTRUCCIONES DE USO
+═══════════════════════════════════════════════════════════════
+
+CONFIGURACIÓN RECOMENDADA (Una sola vez):
+──────────────────────────────────────────
+
+   ► Ejecuta "Registrar-AsociacionMD.bat" para asociar
+     archivos .md con Axon Markdown Viewer
+
+   Después de esto, podrás hacer doble clic en cualquier
+   archivo .md y se abrirá automáticamente con Axon!
+
+   Ver "ASOCIACION-ARCHIVOS.txt" para más detalles.
+
+═══════════════════════════════════════════════════════════════
+
+FORMAS DE USAR LA APLICACIÓN:
+
+1. DOBLE CLIC (Más fácil)
+   ─────────────────────────
+   - Haz doble clic en "Axon.Markdown.Viewer.exe"
+   - Luego abre archivos desde el menú o arrastra archivos .md
+
+2. SCRIPT DE EJEMPLO
+   ──────────────────
+   - Doble clic en "run.bat" para abrir con el archivo de ejemplo
+
+3. ARRASTRAR Y SOLTAR
+   ───────────────────
+   - Arrastra cualquier archivo .md sobre "Axon.Markdown.Viewer.exe"
+   - El archivo se abrirá automáticamente
+
+4. LÍNEA DE COMANDOS
+   ──────────────────
+   - Abre CMD o PowerShell en esta carpeta
+   - Ejecuta: Axon.Markdown.Viewer.exe "ruta\a\tu\archivo.md"
+
+═══════════════════════════════════════════════════════════════
+
+ATAJOS DE TECLADO:
+
+   Ctrl + O     →  Abrir archivo
+   F5           →  Recargar archivo
+   Ctrl + +     →  Acercar zoom
+   Ctrl + -     →  Alejar zoom
+   Ctrl + 0     →  Restablecer zoom
+   Alt + F4     →  Salir
+
+═══════════════════════════════════════════════════════════════
+
+CARACTERÍSTICAS:
+
+   ✓ Tema oscuro moderno
+   ✓ Syntax highlighting para código
+   ✓ Soporte para tablas y listas de tareas
+   ✓ GitHub Flavored Markdown completo
+   ✓ Icono personalizado en barra de tareas
+   ✓ Ventana moderna sin bordes
+
+═══════════════════════════════════════════════════════════════
+
+NOTA IMPORTANTE:
+
+Este ejecutable es AUTOCONTENIDO, lo que significa que NO necesitas
+tener .NET instalado en tu computadora. Todo lo necesario está
+incluido en el archivo Axon.Markdown.Viewer.exe (149 MB).
+
+═══════════════════════════════════════════════════════════════
+
+© 2025 Axon Group
